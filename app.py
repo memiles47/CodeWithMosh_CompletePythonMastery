@@ -3,3 +3,4 @@ first = "Michael"
 last = "Miles"
 full = f"{first} {last}"
 print(full)
+print(f"{first} {last}")
