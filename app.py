@@ -1,4 +1,6 @@
 """Author: Michael Miles"""
-course = "Python Programming"
+course = "   python Programming"
 print(course.upper())
-print(course)
+print(course.lower())
+print(course.title())
+print(course.strip())
