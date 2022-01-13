@@ -1,2 +1,5 @@
 """Author: Michael Miles"""
-course = "Python Programming"
+first = "Michael"
+last = "Miles"
+full = first + " " + last
+print(full)
