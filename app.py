@@ -1,10 +1,4 @@
 """Author: Michael Miles"""
-course = "   python Programming"
-print(course.upper())
-print(course.lower())
-print(course.title())
-print(course.strip())
-print(course.find("Pro"))
-print(course.replace("p", "j"))
-print("pro" in course)
-print("Swift" not in course)
+x = 1
+x = 1.1
+x = 1+2j  # a + bi
