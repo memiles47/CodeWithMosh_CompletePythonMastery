@@ -1,9 +1,9 @@
 """Author: Michael Miles"""
-x = input("x: ")
-y = int(x) + 1
-print(f"x + {x}, y = {y}")
+from msilib.schema import IniFile
 
-# int(x)
-# float(x)
-# bool(x)
-# str(x)
+
+temperature = 35
+if temperature > 30:
+    print("It's warm")
+    print("Drink Watter")
+print("It's Done")
