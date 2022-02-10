@@ -1,4 +1,6 @@
 """Author: Michael Miles"""
-my_age = 12
-message = "Elegible" if my_age >= 22 else "Not elegible"
-print(message)
+# age should be between 18 and 65
+age = 64
+
+if 65 > age > 18:
+    print("Eligible")
